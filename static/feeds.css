@@ -1,0 +1,49 @@
+ body {
+        min-height: 100vh;
+        color: white;
+    }
+
+    .pfp {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .title {
+        font-family: 'Staatliches', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    a {
+        color: #85e0d8;
+        text-decoration: none;
+    }
+
+    .speedcontrolcontainer {
+        max-width: 30em;
+        display: block;
+        padding: 10px;
+        font-family: Sans-serif;
+    }
+
+    .speedcontrolcontainer audio {
+        width: 100%;
+        display: block;
+    }
+
+    .speedcontrolcontainer div {
+        display: flex;
+        padding: .5em 0;
+        gap: 5px;
+    }
+
+    .speedcontrolcontainer label {
+        flex: 1
+    }
+
+    .speedcontrolcontainer input[type="range"] {
+        flex: 5
+    }
+
+    .speedcontrolcontainer span {
+        flex: 1;
+        text-align: center;
+    }
